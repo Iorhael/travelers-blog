@@ -1,0 +1,75 @@
+types {
+    text/plain                                       txt;
+
+    text/html                                        html;
+    text/css                                         css;
+
+    application/javascript                           js;
+
+    application/atom+xml                             atom;
+    application/rss+xml                              rss;
+    apllication/xml                                  xml;
+
+    application/json                                 json;
+
+    application/pdf                                  pdf;
+
+    application/java-archive                         jar;
+
+    application/gzip                                 gz;
+    application/zstd                                 zst;
+    application/zip                                  zip;
+
+    application/x-makeself                           run;
+
+    application/x-7z-compressed                      7z;
+    application/x-rar-compressed                     rar;
+
+    application/x-redhat-package-manager             rpm;
+    application/vnd.debian.binary-package            deb;
+
+    application/x-x509-ca-cert                       der pem crt;
+
+    font/woff                                        woff;
+    font/woff2                                       woff2;
+
+    image/svg+xml                                    svg;
+    image/png                                        png;
+    image/jpeg                                       jpg;
+    image/jpeg                                       jpeg;
+    image/webp                                       webp;
+    image/heic                                       heic;
+    image/gif                                        gif;
+    image/x-icon                                     ico;
+    image/x-ms-bmp                                   bmp;
+
+    video/mp2t                                       ts;
+    video/mp4                                        mp4;
+    video/mpeg                                       mpg;
+    video/mpeg                                       mpeg;
+    video/webm                                       webm;
+    video/quicktime                                  mov;
+    video/x-matroska                                 mkv;
+
+    audio/mpeg                                       mp3;
+    audio/ac3                                        ac3;
+    audio/aac                                        aac;
+    audio/wav                                        wav;
+    audio/ogg                                        ogg;
+    audio/opus                                       opus;
+    audio/x-flac                                     flac;
+
+    application/vnd.apple.mpegurl                    m3u8;
+
+    application/vnd.oasis.opendocument.text          odt;
+    application/vnd.oasis.opendocument.spreadsheet   ods;
+    application/vnd.oasis.opendocument.presentation  odp;
+
+    application/msword                               doc;
+    application/vnd.ms-excel                         xls;
+    application/vnd.ms-powerpoint                    ppt;
+
+    application/vnd.openxmlformats-officedocument.wordprocessingml.document    docx;
+    application/vnd.openxmlformats-officedocument.spreadsheetml.sheet          xlsx;
+    application/vnd.openxmlformats-officedocument.presentationml.presentation  pptx;
+}

@@ -1,0 +1,23 @@
+name: mycloud
+
+services:
+  nginx:
+    build: ./containers/nginx
+
+    container_name: nginx
+
+    ports:
+      - "80:80"
+      - "443:443"
+
+    volumes:
+      - ./webroot:/webroot
+      - ./tlscert:/tlscert
+
+  phpfpm:
+    build: ./containers/phpfpm
+
+    container_name: phpfpm
+
+    volumes:
+      - ./webroot:/webroot
